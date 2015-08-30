@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{501036A0-A949-4E35-A8BF-B375CD6D20C3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BrutileArcGIS</RootNamespace>
+    <AssemblyName>ArcBruTile</AssemblyName>
+    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>http://localhost/ArcBruTile/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BruTile.Desktop, Version=0.8.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>brutile\0.8.6\BruTile.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.ADF.Local, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.ArcMapUI, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Carto, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesRaster, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Display, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Framework, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geodatabase, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geometry, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.System, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.SystemUI, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>brutile\0.8.6\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ExceptionMessageBox, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\SqlServer\Microsoft.ExceptionMessageBox.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SmartThreadPool">
+      <HintPath>lib\SmartThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArcBruTileInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ArcBruTileInstaller.Designer.cs">
+      <DependentUpon>ArcBruTileInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="commands\AboutMeCommand.cs" />
+    <Compile Include="commands\AboutPdokCommand.cs" />
+    <Compile Include="commands\AddGaodeLayerCommand.cs" />
+    <Compile Include="commands\AddGoogleLayerCommand.cs" />
+    <Compile Include="commands\AddPdokLayerCommand.cs" />
+    <Compile Include="forms\AboutMe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\AboutMe.Designer.cs">
+      <DependentUpon>AboutMe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\TileCache.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\TileCache.Designer.cs">
+      <DependentUpon>TileCache.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lib\BruTileCustomLayer.cs" />
+    <Compile Include="lib\ChinaConfig.cs" />
+    <Compile Include="lib\Requester.cs" />
+    <Compile Include="lib\SimpleFileFetcher.cs" />
+    <Compile Include="MenuDefs\DutchMenu.cs" />
+    <Compile Include="MenuDefs\GaodeMenuDef.cs" />
+    <Compile Include="MenuDefs\GoogleMenuDef.cs" />
+    <Compile Include="MenuDefs\Osm2MenuDef.cs" />
+    <Compile Include="MenuDefs\PCMenuDef.cs" />
+    <Compile Include="MenuDefs\PdokMenuDef.cs" />
+    <Compile Include="Toolbars\ArcBruTileToolbar.cs" />
+    <Compile Include="forms\BruTileAboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\BruTileAboutBox.Designer.cs">
+      <DependentUpon>BruTileAboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuDefs\BruTileMenuDef.cs" />
+    <Compile Include="commands\AboutBruTileCommand.cs" />
+    <Compile Include="commands\AddBingLayerCommand.cs" />
+    <Compile Include="commands\AddBruTileLayerCommandBase.cs" />
+    <Compile Include="commands\AddCloudMadeLayerCommand.cs" />
+    <Compile Include="commands\AddMapBoxLayerCommand.cs" />
+    <Compile Include="commands\AddMapQuestLayerCommand.cs" />
+    <Compile Include="commands\AddServicesCommand.cs" />
+    <Compile Include="commands\AddOsmLayerCommand.cs" />
+    <Compile Include="commands\AddStamenLayerCommand.cs" />
+    <Compile Include="commands\AddTmsLayerCommandBase.cs" />
+    <Compile Include="commands\AddWmsCLayerCommand.cs" />
+    <Compile Include="MenuDefs\BingMenuDef.cs" />
+    <Compile Include="MenuDefs\CloudMadeMenuDef.cs" />
+    <Compile Include="MenuDefs\MapBoxMenuDef.cs" />
+    <Compile Include="MenuDefs\MapQuestMenuDef.cs" />
+    <Compile Include="MenuDefs\OsmMenuDef.cs" />
+    <Compile Include="MenuDefs\StamenMenuDef.cs" />
+    <Compile Include="forms\AddServicesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\AddServicesForm.Designer.cs">
+      <DependentUpon>AddServicesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\AddProviderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\AddProviderForm.Designer.cs">
+      <DependentUpon>AddProviderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\AddWmsCForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\AddWmsCForm.Designer.cs">
+      <DependentUpon>AddWmsCForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lib\ArcMapWindow.cs" />
+    <Compile Include="lib\BruTileHelper.cs" />
+    <Compile Include="lib\BruTileLayer.cs" />
+    <Compile Include="lib\CacheDirectory.cs" />
+    <Compile Include="lib\CacheSettings.cs" />
+    <Compile Include="lib\ConfigBingHybrid.cs" />
+    <Compile Include="lib\ConfigInvertedTMS.cs" />
+    <Compile Include="lib\ConfigTms.cs" />
+    <Compile Include="lib\ConfigWmsC.cs" />
+    <Compile Include="lib\EnvelopeExtensionMethods.cs" />
+    <Compile Include="lib\FetchStrategy.cs" />
+    <Compile Include="lib\FileCacheExtensionMethods.cs" />
+    <Compile Include="lib\FileFetcher.cs" />
+    <Compile Include="lib\MultipleThreadResetEvent.cs" />
+    <Compile Include="lib\OsmMapType.cs" />
+    <Compile Include="lib\Projector.cs" />
+    <Compile Include="lib\ConfigBing.cs" />
+    <Compile Include="lib\ConfigHelper.cs" />
+    <Compile Include="lib\ConfigOsm.cs" />
+    <Compile Include="lib\ConfigurationHelper.cs" />
+    <Compile Include="lib\EnumBruTileLayer.cs" />
+    <Compile Include="lib\IConfig.cs" />
+    <Compile Include="lib\SpatialReferences.cs" />
+    <Compile Include="lib\Tile.cs" />
+    <Compile Include="lib\TileMap.cs" />
+    <Compile Include="lib\TmsTileMapServiceParser.cs" />
+    <Compile Include="lib\WorldFileWriter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="lib\Transform.cs" />
+    <Compile Include="Toolbars\DutchToolbar.cs" />
+    <Compile Include="Toolbars\PCLayerToolbar.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="forms\AboutMe.resx">
+      <DependentUpon>AboutMe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\BruTileAboutBox.resx">
+      <DependentUpon>BruTileAboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\AddServicesForm.resx">
+      <DependentUpon>AddServicesForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\AddProviderForm.resx">
+      <DependentUpon>AddProviderForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\AddWmsCForm.resx">
+      <DependentUpon>AddWmsCForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\TileCache.resx">
+      <DependentUpon>TileCache.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brutilelogobig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bing.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\osm_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\download.png" />
+    <None Include="Resources\gaode.ico" />
+    <None Include="Resources\gaode.bmp" />
+    <None Include="Resources\QQ截图20150419154852.jpg" />
+    <None Include="Resources\TDT.png" />
+    <Content Include="Resources\tms.jpg" />
+    <Content Include="services\arcbrutile_sample_services.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\WMS_icon.png" />
+    <Content Include="App.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Resources\Google.png" />
+    <None Include="Resources\google.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BruTile\BruTile.csproj">
+      <Project>{88995DB1-C9E2-4B1E-B487-B2BD38007E91}</Project>
+      <Name>BruTile</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

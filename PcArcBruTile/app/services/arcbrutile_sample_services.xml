@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Services>
+  <TileMapService title="Europa Technologies" version="1.0.0" href="http://dl.dropbox.com/u/9984329/ArcBruTile/Services/Europa%20Technologies/EuropaTileMaps.xml"/>
+  <TileMapService title="La Infraestructura de Datos Espaciales de España" version="1.0.0" href="http://www.idee.es/wms-c/IDEE-Base/IDEE-Base/1.0.0/"/>
+  <TileMapService title="MetaCarta" version="1.0.0" href="http://labs.metacarta.com/wms-c/Basic.py/1.0.0/"/>
+  <TileMapService title="Nationaal Georegister" version="1.0.0" href="http://acceptatie.geodata.nationaalgeoregister.nl/tms/1.0.0"/>
+  <TileMapService title="OSGeo" version="1.0.0" href="http://tilecache.osgeo.org/wms-c/Basic.py/1.0.0/"/>
+  <TileMapService title=" VR-TheWorld Online" version="1.0.0" href="http://www.vr-theworld.com/vr-theworld/tiles/1.0.0/"/>
+</Services>
+
+

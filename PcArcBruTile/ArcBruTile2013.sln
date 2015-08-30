@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21126.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcBruTile", "app\ArcBruTile.csproj", "{501036A0-A949-4E35-A8BF-B375CD6D20C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcBruTile.Tests", "ArcBruTile.Tests\ArcBruTile.Tests.csproj", "{327F29F1-D587-4804-9C7E-E48B419ADE6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BruTile", "..\..\..\..\..\aaa\brutile-0.8.4\brutile_0.8.4\BruTile\BruTile.csproj", "{9FB60E2D-C682-4A01-9584-8B495B8DA85A}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Portable|Any CPU = Debug Portable|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release Portable|Any CPU = Release Portable|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{501036A0-A949-4E35-A8BF-B375CD6D20C3}.Debug Portable|Any CPU.ActiveCfg = Debug|Any CPU
+		{501036A0-A949-4E35-A8BF-B375CD6D20C3}.Debug Portable|Any CPU.Build.0 = Debug|Any CPU
+		{501036A0-A949-4E35-A8BF-B375CD6D20C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501036A0-A949-4E35-A8BF-B375CD6D20C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501036A0-A949-4E35-A8BF-B375CD6D20C3}.Release Portable|Any CPU.ActiveCfg = Release|Any CPU
+		{501036A0-A949-4E35-A8BF-B375CD6D20C3}.Release Portable|Any CPU.Build.0 = Release|Any CPU
+		{501036A0-A949-4E35-A8BF-B375CD6D20C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501036A0-A949-4E35-A8BF-B375CD6D20C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327F29F1-D587-4804-9C7E-E48B419ADE6B}.Debug Portable|Any CPU.ActiveCfg = Debug|Any CPU
+		{327F29F1-D587-4804-9C7E-E48B419ADE6B}.Debug Portable|Any CPU.Build.0 = Debug|Any CPU
+		{327F29F1-D587-4804-9C7E-E48B419ADE6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327F29F1-D587-4804-9C7E-E48B419ADE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327F29F1-D587-4804-9C7E-E48B419ADE6B}.Release Portable|Any CPU.ActiveCfg = Release|Any CPU
+		{327F29F1-D587-4804-9C7E-E48B419ADE6B}.Release Portable|Any CPU.Build.0 = Release|Any CPU
+		{327F29F1-D587-4804-9C7E-E48B419ADE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327F29F1-D587-4804-9C7E-E48B419ADE6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB60E2D-C682-4A01-9584-8B495B8DA85A}.Debug Portable|Any CPU.ActiveCfg = Debug Portable|Any CPU
+		{9FB60E2D-C682-4A01-9584-8B495B8DA85A}.Debug Portable|Any CPU.Build.0 = Debug Portable|Any CPU
+		{9FB60E2D-C682-4A01-9584-8B495B8DA85A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB60E2D-C682-4A01-9584-8B495B8DA85A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB60E2D-C682-4A01-9584-8B495B8DA85A}.Release Portable|Any CPU.ActiveCfg = Release Portable|Any CPU
+		{9FB60E2D-C682-4A01-9584-8B495B8DA85A}.Release Portable|Any CPU.Build.0 = Release Portable|Any CPU
+		{9FB60E2D-C682-4A01-9584-8B495B8DA85A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB60E2D-C682-4A01-9584-8B495B8DA85A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
