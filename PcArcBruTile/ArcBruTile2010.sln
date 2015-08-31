@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D485BE
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ArcBruTileSetup", "ArcBruTileSetup\ArcBruTileSetup.vdproj", "{F0176FBA-08E7-49CD-907A-253B2050EE09}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ArcBruTileSetup", "ArcBruTileSetup\ArcBruTileSetup.vdproj", "{50369D65-844D-434F-AA41-85AAC9D5923A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,17 +32,18 @@ Global
 		{501036A0-A949-4E35-A8BF-B375CD6D20C3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{501036A0-A949-4E35-A8BF-B375CD6D20C3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{501036A0-A949-4E35-A8BF-B375CD6D20C3}.Release|x86.ActiveCfg = Release|Any CPU
-		{F0176FBA-08E7-49CD-907A-253B2050EE09}.Debug|Any CPU.ActiveCfg = Debug
-		{F0176FBA-08E7-49CD-907A-253B2050EE09}.Debug|Mixed Platforms.ActiveCfg = Debug
-		{F0176FBA-08E7-49CD-907A-253B2050EE09}.Debug|Mixed Platforms.Build.0 = Debug
-		{F0176FBA-08E7-49CD-907A-253B2050EE09}.Debug|x86.ActiveCfg = Debug
-		{F0176FBA-08E7-49CD-907A-253B2050EE09}.Debug|x86.Build.0 = Debug
-		{F0176FBA-08E7-49CD-907A-253B2050EE09}.Release|Any CPU.ActiveCfg = Release
-		{F0176FBA-08E7-49CD-907A-253B2050EE09}.Release|Any CPU.Build.0 = Release
-		{F0176FBA-08E7-49CD-907A-253B2050EE09}.Release|Mixed Platforms.ActiveCfg = Release
-		{F0176FBA-08E7-49CD-907A-253B2050EE09}.Release|Mixed Platforms.Build.0 = Release
-		{F0176FBA-08E7-49CD-907A-253B2050EE09}.Release|x86.ActiveCfg = Release
-		{F0176FBA-08E7-49CD-907A-253B2050EE09}.Release|x86.Build.0 = Release
+		{50369D65-844D-434F-AA41-85AAC9D5923A}.Debug|Any CPU.ActiveCfg = Debug
+		{50369D65-844D-434F-AA41-85AAC9D5923A}.Debug|Any CPU.Build.0 = Debug
+		{50369D65-844D-434F-AA41-85AAC9D5923A}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{50369D65-844D-434F-AA41-85AAC9D5923A}.Debug|Mixed Platforms.Build.0 = Debug
+		{50369D65-844D-434F-AA41-85AAC9D5923A}.Debug|x86.ActiveCfg = Debug
+		{50369D65-844D-434F-AA41-85AAC9D5923A}.Debug|x86.Build.0 = Debug
+		{50369D65-844D-434F-AA41-85AAC9D5923A}.Release|Any CPU.ActiveCfg = Release
+		{50369D65-844D-434F-AA41-85AAC9D5923A}.Release|Any CPU.Build.0 = Release
+		{50369D65-844D-434F-AA41-85AAC9D5923A}.Release|Mixed Platforms.ActiveCfg = Release
+		{50369D65-844D-434F-AA41-85AAC9D5923A}.Release|Mixed Platforms.Build.0 = Release
+		{50369D65-844D-434F-AA41-85AAC9D5923A}.Release|x86.ActiveCfg = Release
+		{50369D65-844D-434F-AA41-85AAC9D5923A}.Release|x86.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

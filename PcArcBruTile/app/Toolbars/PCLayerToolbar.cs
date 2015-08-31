@@ -22,6 +22,7 @@ namespace BrutileArcGIS.Toolbars
             try
             {
                 AddItem(typeof(GaodeMenuDef));
+                AddItem(typeof(TDTMenuDef));
                 AddItem(typeof(Osm2MenuDef));
                 AddItem(typeof(GoogleMenuDef));
                 AddItem(typeof(PCMenuDef));

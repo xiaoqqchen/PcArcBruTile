@@ -28,16 +28,12 @@ namespace BrutileArcGIS.MenuDefs
                     itemDef.ID = "AddGaodeHybridCommand";
                     itemDef.Group = false;
                     break;
-                case 3:
-                    itemDef.ID = "AddTDTLabelCommand";
-                    itemDef.Group = false;
-                    break;
             }
         }
 
         public int ItemCount
         {
-            get { return 4; }
+            get { return 3; }
         }
 
         public string Name

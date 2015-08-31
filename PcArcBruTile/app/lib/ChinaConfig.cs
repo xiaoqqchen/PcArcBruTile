@@ -45,11 +45,23 @@ namespace BrutileArcGIS.lib
                         "http://123.57.79.15/Service/Traffic.ashx?zoom={z}&x={x}&y={y}",
                         new[] { "1", "2", "3", "4" }, name: _mapType.ToString());
             }
-            else if (_mapType == EnumBruTileLayer.GaodeLabel)
+            else if (_mapType == EnumBruTileLayer.TDTRoad)
+            {
+                return new HttpTileSource(new GlobalSphericalMercator(0, 20),
+                        "http://t{s}.tianditu.com/DataServer?T=vec_w&x={x}&y={y}&l={z}",
+                        new[] { "0", "1", "2", "3", "4", "5", "6", "7" }, name: _mapType.ToString());
+            }
+            else if (_mapType == EnumBruTileLayer.TDTArial)
+            {
+                return new HttpTileSource(new GlobalSphericalMercator(0, 20),
+                        "http://t{s}.tianditu.cn/img_w/wmts?service=wmts&request=GetTile&version=1.0.0&LAYER=img&tileMatrixSet=w&TileMatrix={z}&TileRow={y}&TileCol={x}",
+                        new[] { "0", "1", "2", "3", "4", "5", "6", "7" }, name: _mapType.ToString());
+            }
+            else if (_mapType == EnumBruTileLayer.TDTLabel)
             {
                 return new HttpTileSource(new GlobalSphericalMercator(0, 20),
                         "http://t{s}.tianditu.com/DataServer?T=cva_w&x={x}&y={y}&l={z}",
-                        new[] { "1", "2", "3", "4", "5", "6", "7" }, name: _mapType.ToString());
+                        new[] { "0","1", "2", "3", "4", "5", "6", "7" }, name: _mapType.ToString());
             }
             else if (_mapType == EnumBruTileLayer.OSMRoad)
             {

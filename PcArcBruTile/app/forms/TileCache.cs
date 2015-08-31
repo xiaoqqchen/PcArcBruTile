@@ -233,7 +233,8 @@ namespace BrutileArcGIS.forms
     public enum DownloadTileLayer
     {
         GoogleMap, GoogleHybrid,
-        GaodeRoad, GaodeArial, GaodeHybrid, GaodeLabel,
+        GaodeRoad, GaodeArial, GaodeHybrid,
+        TDTRoad, TDTArial, TDTLabel,
         OSMRoad, OSMBike, OsmTraffic
 
     }

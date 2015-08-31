@@ -127,6 +127,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Net" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq">
@@ -168,6 +169,7 @@
     <Compile Include="MenuDefs\Osm2MenuDef.cs" />
     <Compile Include="MenuDefs\PCMenuDef.cs" />
     <Compile Include="MenuDefs\PdokMenuDef.cs" />
+    <Compile Include="MenuDefs\TDTMenuDef.cs" />
     <Compile Include="Toolbars\ArcBruTileToolbar.cs" />
     <Compile Include="forms\BruTileAboutBox.cs">
       <SubType>Form</SubType>

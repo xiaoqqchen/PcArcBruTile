@@ -63,12 +63,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_183723C9AEFD8A62284464F434098734"
-        "OwnerKey" = "8:_8336A4F2EE504521B17366261EBE5D92"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_1CD7D72FABFA8F2090E03E53F4680755"
         "OwnerKey" = "8:_B69316A61FBAE764C3DC84359DB51DB2"
         "MsmSig" = "8:_UNDEFINED"
@@ -171,7 +165,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_3A55BC38546DDA69C58C7AF1AC418AED"
+        "MsmKey" = "8:_3C5D0DC60AB9710605B5A0FF472CD054"
         "OwnerKey" = "8:_8336A4F2EE504521B17366261EBE5D92"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -531,6 +525,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_53D2A64C2AC25BE7ABCF2B0BF1D50CDD"
+        "OwnerKey" = "8:_8336A4F2EE504521B17366261EBE5D92"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_573A92F714A51B99C4856F5AA7D856B8"
         "OwnerKey" = "8:_9DBB9AD2637EFAA337F3815454CB3162"
         "MsmSig" = "8:_UNDEFINED"
@@ -683,6 +683,12 @@
         {
         "MsmKey" = "8:_62B2F9A340A3E17A49B7C412E4AD2FF5"
         "OwnerKey" = "8:_3EF459754EE61A8B826C70272781CB1E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_62B78853712B0C2701EBB3D1956B88B7"
+        "OwnerKey" = "8:_8336A4F2EE504521B17366261EBE5D92"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -951,6 +957,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_B06A23696CA61E617A18F2983D54ED53"
+        "OwnerKey" = "8:_8336A4F2EE504521B17366261EBE5D92"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_B69316A61FBAE764C3DC84359DB51DB2"
         "OwnerKey" = "8:_93A6F65BC0CA37ABBF69E11CD7499557"
         "MsmSig" = "8:_UNDEFINED"
@@ -1017,20 +1029,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_BB176DC7A4971078E42B1FF8C89E839A"
-        "OwnerKey" = "8:_8336A4F2EE504521B17366261EBE5D92"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_BBF8BE09C3B3FD6960EAA37DFBD3C21B"
         "OwnerKey" = "8:_9DBB9AD2637EFAA337F3815454CB3162"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_BFC502B5F2449FCFCCC323734DC11AB2"
-        "OwnerKey" = "8:_8336A4F2EE504521B17366261EBE5D92"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1097,6 +1097,12 @@
         {
         "MsmKey" = "8:_D218211AAF9F458B16511ED5B1B901B2"
         "OwnerKey" = "8:_AD93F7BAF272988D5954114F14C1DFA5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D5C9A8CBC5962D5C7950525FA0221099"
+        "OwnerKey" = "8:_8336A4F2EE504521B17366261EBE5D92"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1187,12 +1193,6 @@
         {
         "MsmKey" = "8:_E076CCB1F0A9995B0E100F3DA2ADFE9C"
         "OwnerKey" = "8:_9DBB9AD2637EFAA337F3815454CB3162"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E0C8EE2DF6434991F22922A32785AB6D"
-        "OwnerKey" = "8:_8336A4F2EE504521B17366261EBE5D92"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1318,31 +1318,31 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BB176DC7A4971078E42B1FF8C89E839A"
+        "OwnerKey" = "8:_62B78853712B0C2701EBB3D1956B88B7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E0C8EE2DF6434991F22922A32785AB6D"
+        "OwnerKey" = "8:_3C5D0DC60AB9710605B5A0FF472CD054"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3A55BC38546DDA69C58C7AF1AC418AED"
+        "OwnerKey" = "8:_D5C9A8CBC5962D5C7950525FA0221099"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_183723C9AEFD8A62284464F434098734"
+        "OwnerKey" = "8:_53D2A64C2AC25BE7ABCF2B0BF1D50CDD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BFC502B5F2449FCFCCC323734DC11AB2"
+        "OwnerKey" = "8:_B06A23696CA61E617A18F2983D54ED53"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1515,7 +1515,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\PcArcBruTile.msi"
+        "OutputFilename" = "8:Debug\\ArcBruTileSetup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -1762,37 +1762,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_183723C9AEFD8A62284464F434098734"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_183723C9AEFD8A62284464F434098734"
-                    {
-                    "Name" = "8:log4net.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:log4net.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_704A99CB75D54700878997846DFABB00"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1CD7D72FABFA8F2090E03E53F4680755"
             {
             "AssemblyRegister" = "3:1"
@@ -1977,14 +1946,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3A55BC38546DDA69C58C7AF1AC418AED"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3C5D0DC60AB9710605B5A0FF472CD054"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:SmartThreadPool, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_3A55BC38546DDA69C58C7AF1AC418AED"
+                    "_3C5D0DC60AB9710605B5A0FF472CD054"
                     {
                     "Name" = "8:SmartThreadPool.dll"
                     "Attributes" = "3:512"
@@ -2172,6 +2141,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_53D2A64C2AC25BE7ABCF2B0BF1D50CDD"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:BruTile, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
+                "ScatterAssemblies"
+                {
+                    "_53D2A64C2AC25BE7ABCF2B0BF1D50CDD"
+                    {
+                    "Name" = "8:BruTile.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:BruTile.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_704A99CB75D54700878997846DFABB00"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_573A92F714A51B99C4856F5AA7D856B8"
             {
             "AssemblyRegister" = "3:1"
@@ -2237,6 +2237,37 @@
                     }
                 }
             "SourcePath" = "8:ESRI.ArcGIS.Geometry.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_704A99CB75D54700878997846DFABB00"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_62B78853712B0C2701EBB3D1956B88B7"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.ExceptionMessageBox, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_62B78853712B0C2701EBB3D1956B88B7"
+                    {
+                    "Name" = "8:Microsoft.ExceptionMessageBox.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.ExceptionMessageBox.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_704A99CB75D54700878997846DFABB00"
@@ -2651,6 +2682,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B06A23696CA61E617A18F2983D54ED53"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:BruTile.Desktop, Version=0.8.4.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_B06A23696CA61E617A18F2983D54ED53"
+                    {
+                    "Name" = "8:BruTile.Desktop.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:BruTile.Desktop.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_704A99CB75D54700878997846DFABB00"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B69316A61FBAE764C3DC84359DB51DB2"
             {
             "AssemblyRegister" = "3:1"
@@ -2702,37 +2764,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BB176DC7A4971078E42B1FF8C89E839A"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:BruTile, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
-                "ScatterAssemblies"
-                {
-                    "_BB176DC7A4971078E42B1FF8C89E839A"
-                    {
-                    "Name" = "8:BruTile.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:BruTile.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_704A99CB75D54700878997846DFABB00"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BBF8BE09C3B3FD6960EAA37DFBD3C21B"
             {
             "SourcePath" = "8:esriGeoprocessing.olb"
@@ -2750,37 +2781,6 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BFC502B5F2449FCFCCC323734DC11AB2"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:BruTile.Desktop, Version=0.8.4.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_BFC502B5F2449FCFCCC323734DC11AB2"
-                    {
-                    "Name" = "8:BruTile.Desktop.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:BruTile.Desktop.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_704A99CB75D54700878997846DFABB00"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -2926,6 +2926,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D5C9A8CBC5962D5C7950525FA0221099"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_D5C9A8CBC5962D5C7950525FA0221099"
+                    {
+                    "Name" = "8:log4net.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:log4net.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_704A99CB75D54700878997846DFABB00"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DB6628DA423B89ED5CDD4B4A64CEF02D"
             {
             "SourcePath" = "8:esriDisplay.olb"
@@ -2991,37 +3022,6 @@
                     }
                 }
             "SourcePath" = "8:ESRI.ArcGIS.DataSourcesFile.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_704A99CB75D54700878997846DFABB00"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E0C8EE2DF6434991F22922A32785AB6D"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.ExceptionMessageBox, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_E0C8EE2DF6434991F22922A32785AB6D"
-                    {
-                    "Name" = "8:Microsoft.ExceptionMessageBox.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.ExceptionMessageBox.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_704A99CB75D54700878997846DFABB00"
@@ -3229,7 +3229,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ArcBruTile 0.4"
         "ProductCode" = "8:{6235F157-8804-45D2-BC0F-408153F05559}"
-        "PackageCode" = "8:{E59C2E37-2C38-49BD-88BF-05F5CB9345B2}"
+        "PackageCode" = "8:{DD0E7F0B-2D55-438A-92E8-3474E8D5713D}"
         "UpgradeCode" = "8:{109F4005-FF40-4138-9629-0CEDF33B0CCC}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -3750,7 +3750,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8336A4F2EE504521B17366261EBE5D92"
             {
-            "SourcePath" = "8:..\\app\\obj\\Debug\\ArcBruTile.dll"
+            "SourcePath" = "8:..\\app\\obj\\Release\\ArcBruTile.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_704A99CB75D54700878997846DFABB00"

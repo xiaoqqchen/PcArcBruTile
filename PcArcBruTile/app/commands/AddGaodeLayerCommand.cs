@@ -8,6 +8,7 @@ using BrutileArcGIS.Properties;
 
 namespace BrutileArcGIS.commands
 {
+    #region 高德地图
     [ProgId("AddGaodeRoadLayerCommand")]
     public sealed class AddGaodeRoadLayerCommand : AddBruTileLayerCommandBase
     {
@@ -43,22 +44,45 @@ namespace BrutileArcGIS.commands
         {
         }
     }
+    #endregion 
 
-    [ProgId("AddTDTLabelCommand")]
-    public sealed class AddTDTLabelCommand : AddBruTileLayerCommandBase
+    #region 天地图
+    [ProgId("AddTDTRoadCommand")]
+    public sealed class AddTDTRoadCommand : AddBruTileLayerCommandBase
     {
-        public AddTDTLabelCommand()
-            : base("BruTile", "&注记地图", "添加天地图注记地图", "TDTLabel", Resources.gaode, EnumBruTileLayer.GaodeLabel)
+        public AddTDTRoadCommand()
+            : base("BruTile", "&道路地图", "添加天地图地图", "TDTRoad", Resources.TDT, EnumBruTileLayer.TDTRoad)
         {
         }
     }
 
 
+    [ProgId("AddTDTArialCommand")]
+    public sealed class AddTDTArialCommand : AddBruTileLayerCommandBase
+    {
+        public AddTDTArialCommand()
+            : base("BruTile", "&影像地图", "添加天地图影像地图", "TDTArial", Resources.TDT, EnumBruTileLayer.TDTArial)
+        {
+        }
+    }
+
+    [ProgId("AddTDTLabelCommand")]
+    public sealed class AddTDTLabelCommand : AddBruTileLayerCommandBase
+    {
+        public AddTDTLabelCommand()
+            : base("BruTile", "&注记地图", "添加天地图注记地图", "TDTLabel", Resources.TDT, EnumBruTileLayer.TDTLabel)
+        {
+        }
+    }
+
+    #endregion
+
+    #region OSM地图
     [ProgId("AddOSMRoadCommand")]
     public sealed class AddOSMRoadCommand : AddBruTileLayerCommandBase
     {
         public AddOSMRoadCommand()
-            : base("BruTile", "&道路地图", "添加OSM道路地图", "OSMRoad", Resources.TDT, EnumBruTileLayer.OSMRoad)
+            : base("BruTile", "&道路地图", "添加OSM道路地图", "OSMRoad", Resources.osm_logo, EnumBruTileLayer.OSMRoad)
         {
         }
     }
@@ -80,4 +104,5 @@ namespace BrutileArcGIS.commands
         {
         }
     }
+    #endregion
 }

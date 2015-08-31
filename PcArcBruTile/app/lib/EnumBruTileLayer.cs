@@ -7,7 +7,8 @@
         TMS, 
         WMSC, 
         InvertedTMS,
-        GaodeRoad,GaodeArial,GaodeHybrid,GaodeTraffic,GaodeLabel,
+        GaodeRoad,GaodeArial,GaodeHybrid,GaodeTraffic,
+        TDTRoad, TDTArial, TDTLabel,
         OSMRoad,OSMBike,OsmTraffic,
         GoogleMap,GoogleHybrid
     }
