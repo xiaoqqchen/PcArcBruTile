@@ -1,5 +1,5 @@
 # PcArcBruTile
-快速在ArcGIS中加载中国的网络地图
+在ArcGIS中快速加载中国的网络地图
 
 本程序只是在[ArcBruTile](https://arcbrutile.codeplex.com/)上做了稍微修改，我们不生成代码，我们只是代码的搬运工...
 <p>安装包地址：https://github.com/xiaoqqchen/PcArcBruTile/blob/master/Soft/ArcBruTileSetup.msi?raw=true</p>
