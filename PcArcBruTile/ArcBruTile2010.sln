@@ -12,8 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D485BE
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ArcBruTileSetup", "ArcBruTileSetup\ArcBruTileSetup.vdproj", "{F0176FBA-08E7-49CD-907A-253B2050EE09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BruTile", "BruTile\BruTile.csproj", "{88995DB1-C9E2-4B1E-B487-B2BD38007E91}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,16 +43,6 @@ Global
 		{F0176FBA-08E7-49CD-907A-253B2050EE09}.Release|Mixed Platforms.Build.0 = Release
 		{F0176FBA-08E7-49CD-907A-253B2050EE09}.Release|x86.ActiveCfg = Release
 		{F0176FBA-08E7-49CD-907A-253B2050EE09}.Release|x86.Build.0 = Release
-		{88995DB1-C9E2-4B1E-B487-B2BD38007E91}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{88995DB1-C9E2-4B1E-B487-B2BD38007E91}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{88995DB1-C9E2-4B1E-B487-B2BD38007E91}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{88995DB1-C9E2-4B1E-B487-B2BD38007E91}.Debug|x86.ActiveCfg = Debug|x86
-		{88995DB1-C9E2-4B1E-B487-B2BD38007E91}.Debug|x86.Build.0 = Debug|x86
-		{88995DB1-C9E2-4B1E-B487-B2BD38007E91}.Release|Any CPU.ActiveCfg = Release|x86
-		{88995DB1-C9E2-4B1E-B487-B2BD38007E91}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{88995DB1-C9E2-4B1E-B487-B2BD38007E91}.Release|Mixed Platforms.Build.0 = Release|x86
-		{88995DB1-C9E2-4B1E-B487-B2BD38007E91}.Release|x86.ActiveCfg = Release|x86
-		{88995DB1-C9E2-4B1E-B487-B2BD38007E91}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
