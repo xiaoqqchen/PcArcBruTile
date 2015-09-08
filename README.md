@@ -18,6 +18,6 @@
 
 <img src="http://images2015.cnblogs.com/blog/364847/201508/364847-20150831140034372-2081082899.png"/>
 
-
+4.OSM 和 谷歌地图最好使用VPN加速。
 ##示例图片
 <p><img src="https://github.com/xiaoqqchen/PcArcBruTile/blob/master/Soft/1.png"/></p>
