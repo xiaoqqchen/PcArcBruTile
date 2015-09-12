@@ -21,3 +21,5 @@
 4.OSM 和 谷歌地图最好使用VPN加速。
 ##示例图片
 <p><img src="https://github.com/xiaoqqchen/PcArcBruTile/blob/master/Soft/1.png"/></p>
+
+#####本人毕业狗一枚，还在就业大军中苦苦挣扎，等我找到了工作，再帮大家写出更好的软件:)
