@@ -264,20 +264,10 @@ namespace BrutileArcGIS.Lib
             {
                 RequestHelper.Timeout = 2000;
 
-                //var webRequest = (HttpWebRequest)WebRequest.Create(uri);
-                //webRequest.UserAgent = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36";
-                //using (var webResponse = webRequest.GetResponse())
-                //{
-                //    if (webResponse.ContentType.StartsWith("image", StringComparison.OrdinalIgnoreCase))
-                //    {
-                //        using (Stream responseStream = webResponse.GetResponseStream())
-                //        {
-                //            return Utilities.ReadFully(responseStream);
-                //        }
-                //    }
-                //}
+                var webRequest = (HttpWebRequest)WebRequest.Create(uri);
+                webRequest.UserAgent = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36";
 
-                bytes = RequestHelper.FetchImage(uri);
+                bytes = RequestHelper.FetchImage(webRequest);
 
             }
             catch (System.Net.WebException webException)

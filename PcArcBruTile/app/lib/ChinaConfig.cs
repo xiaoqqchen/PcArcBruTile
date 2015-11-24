@@ -84,13 +84,13 @@ namespace BrutileArcGIS.lib
             else if (_mapType == EnumBruTileLayer.GoogleHybrid)
             {
                 return new HttpTileSource(new GlobalSphericalMercator(0, 20),
-                        "http://khm{s}.googleapis.com/kh?v=169&hl=zh-CN&x={x}&y={y}&z={z}",
-                        new[] { "1", "2", "3"}, name: _mapType.ToString());
+                        "http://khm{s}.googleapis.com/kh?v=190&hl=zh-CN&x={x}&y={y}&z={z}",
+                        new[] { "0","1", "2", "3"}, name: _mapType.ToString());
             }
             else if (_mapType == EnumBruTileLayer.GoogleMap)
             {
-                return new HttpTileSource(new GlobalSphericalMercator(0, 20),
-                        "http://mt{s}.googleapis.com/vt?hl=zh-CN&x={x}&y={y}&z={z}",
+                return new HttpTileSource(new GlobalSphericalMercator(0, 21),
+                        "http://maps.googleapis.com/maps/vt?hl=zh-CN&x={x}&y={y}&z={z}",
                         new[] { "1", "2", "3" }, name: _mapType.ToString());
             }
             return new OsmTileSource();
