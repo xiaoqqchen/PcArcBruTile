@@ -2,7 +2,7 @@
 在ArcGIS中快速加载中国的网络地图(暂时不支持10.3的版本，10.3.1可以使用)
 经过多天的测试，终于推出了PcArcBruTile 0.4.1版本，赶紧卸载原来的插件，安装新的吧！([336的小伙伴看这里~](#336特别版)) Thanks @hyx @tm
 
-1. 修复谷歌地图加载Bug
+1. 修复谷歌地图加载Bug(谷歌服务时好时坏，遇到不能加载的情况就忍忍吧~)
 2. 采用多线程和内存缓存较大地优化了地图的加载
 
 本程序只是在[ArcBruTile](https://arcbrutile.codeplex.com/)上做了稍微修改，使其能够加载中国的网络地图。我们不生成代码，我们只是代码的搬运工...
@@ -27,8 +27,10 @@
 <p><img src="https://github.com/xiaoqqchen/PcArcBruTile/blob/master/Soft/1.png"/></p>
 
 ##336特别版
-作为336的一员，首先想到的就是为实验室单独开发一个版本。特别之处是我利用了实验室的面包机来共享和缓存切片...（不要告诉老余）
-把homes这个文件夹设置为y盘，其他都一样。
+作为336的一员，首先想到的就是为实验室单独开发一个版本。[下载地址](https://github.com/xiaoqqchen/PcArcBruTile/raw/master/Soft/ArcBruTileSetup_336.msi)
+
+特别之处是我利用了实验室的面包机来共享和缓存切片...（不要告诉老余）
+######把homes这个文件夹设置为y盘，其他都一样。
 
 
 
