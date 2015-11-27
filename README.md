@@ -29,7 +29,7 @@
 ##336特别版
 作为336的一员，肯定要为实验室单独开发一个版本。[下载地址](https://github.com/xiaoqqchen/PcArcBruTile/raw/master/Soft/ArcBruTileSetup_336.msi)
 
-特别之处是我利用了实验室的面包机来共享和缓存切片...（不要告诉老余）
+特别之处是我利用了实验室的面包机来共享和缓存切片...（不要告诉余老师）
 ######把homes这个文件夹设置为y盘，其他都一样。
 ![图片](Soft/截图.jpg)
 
