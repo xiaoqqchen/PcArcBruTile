@@ -46,8 +46,8 @@ namespace BruTileArcGIS
             try
             {
                 var cacheFolder = CacheSettings.GetCacheFolder();
-                Logger.Debug("Trying to delete tile folder: " + cacheFolder );
-                Directory.Delete(cacheFolder,true);
+                Logger.Debug("Trying to delete tile folder: " + cacheFolder);
+                Directory.Delete(cacheFolder, true);
                 Logger.Debug("Tile directory is deleted");
             }
             catch (Exception ex)

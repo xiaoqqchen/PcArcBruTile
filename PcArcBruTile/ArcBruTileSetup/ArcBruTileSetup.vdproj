@@ -843,12 +843,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7D7BB3F0CB96D87EA2F3F6112925E382"
-        "OwnerKey" = "8:_8336A4F2EE504521B17366261EBE5D92"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_7E3009C6F4054CC9B019BD89922AD0E7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2453,26 +2447,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7D7BB3F0CB96D87EA2F3F6112925E382"
-            {
-            "SourcePath" = "8:ArcBruTile.tlb"
-            "TargetName" = "8:ArcBruTile.tlb"
-            "Tag" = "8:"
-            "Folder" = "8:_704A99CB75D54700878997846DFABB00"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:2"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7E3009C6F4054CC9B019BD89922AD0E7"
             {
             "SourcePath" = "8:..\\app\\bin\\ArcBruTile.dll.config"
@@ -3255,7 +3229,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PcArcBruTile 0.4.1"
         "ProductCode" = "8:{69005EB3-111E-40BF-80D2-16DE3E9D67E1}"
-        "PackageCode" = "8:{FB3AAFF4-9B04-40EC-8835-5FE6DD4491F8}"
+        "PackageCode" = "8:{818FA814-E95A-4595-B715-51B9C28B38B5}"
         "UpgradeCode" = "8:{109F4005-FF40-4138-9629-0CEDF33B0CCC}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -3776,7 +3750,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8336A4F2EE504521B17366261EBE5D92"
             {
-            "SourcePath" = "8:..\\app\\obj\\Release\\ArcBruTile.dll"
+            "SourcePath" = "8:..\\app\\obj\\Debug\\ArcBruTile.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_704A99CB75D54700878997846DFABB00"
