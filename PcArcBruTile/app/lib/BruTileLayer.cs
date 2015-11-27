@@ -125,6 +125,7 @@ namespace BrutileArcGIS.Lib
                         {
                             try
                             {
+
                                 var clipEnvelope = display.ClipEnvelope;
 
                                 // when loading from a file the active map doesn't exist yet 
